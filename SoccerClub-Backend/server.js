@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://YOUR-NETLIFY-DOMAIN.netlify.app',
+    'https://soccerrclub.netlify.app',
   ],
   credentials: true,
 }));
